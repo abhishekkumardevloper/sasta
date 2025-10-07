@@ -1,4 +1,5 @@
-"use client" import Link from "next/link"
+"use client"
+import Link from "next/link"
 import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge" interface BlogPost { id: string title: string slug: string content: string excerpt?: string published: boolean created_at: string
